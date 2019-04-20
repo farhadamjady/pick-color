@@ -20,11 +20,11 @@ pickColor.getHex('yellow'); // #FFFF00
 pickColor.editColor( 'yellow', 0, 1 ); // #FFFF01
 
 // Another example
-pickColor.editColor('yellow', 3, 'A' ); // #FFAF00
+pickColor.editColor( 'yellow', 3, 'A' ); // #FFAF00
 
 // Also it returns decimal code after edition
 pickColor.editColor( 'yellow', 0, 1, 'dec' ); // [255, 255 , 1]
 
 // Another example
-pickColor.editColor('yellow', 3, 'A', 'dec' ); // [255, 175 , 0]
+pickColor.editColor( 'yellow', 3, 'A', 'dec' ); // [255, 175 , 0]
 ```
