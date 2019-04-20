@@ -15,6 +15,7 @@ pickColor.getDecimal('yellow'); // [255, 255 , 0]
 pickColor.getHex('yellow'); // #FFFF00
 
 // Change the color to whatever you want
+
 // It means yellow color at position 0 should be 1
 pickColor.editColor( 'yellow', 0, 1 ); // #FFFF01
 
@@ -22,7 +23,7 @@ pickColor.editColor( 'yellow', 0, 1 ); // #FFFF01
 pickColor.editColor('yellow', 3, 'A' ); // #FFAF00
 
 // Also it returns decimal code after edition
-pickColor.editColor( 'yellow', 0, 1 ); // [255, 255 , 1]
+pickColor.editColor( 'yellow', 0, 1, 'dec' ); // [255, 255 , 1]
 
 // Another example
 pickColor.editColor('yellow', 3, 'A', 'dec' ); // [255, 175 , 0]
